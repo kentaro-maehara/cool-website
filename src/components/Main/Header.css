@@ -1,0 +1,58 @@
+.welcome {
+  margin-top: 50px;
+}
+
+.welcome-moving-msg {
+  position: relative;
+  font-size: 25px;
+  font-weight: bold;
+  -webkit-animation: movingtitle 7s infinite alternate linear;
+  animation: movingtitle 7s infinite alternate linear;
+  /* added */
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@-webkit-keyframes movingtitle {
+  /* modified */
+  to {
+    text-indent: 100%;
+  }
+}
+@keyframes movingtitle {
+  /* modified */
+  to {
+    text-indent: 100%;
+  }
+}
+
+.earth {
+  width: 30px;
+}
+
+.welcome .hammer {
+  float: right;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: -80px;
+}
+
+.webtrips {
+  height: 40px;
+}
+
+.welcome h1 {
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+
+.divider {
+  margin-top: 10%;
+}
+
+.dividing {
+  width: 50vw;
+  height: 5vh;
+}
